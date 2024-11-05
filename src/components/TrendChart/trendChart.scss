@@ -1,0 +1,18 @@
+.trend-chart {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    flex-grow: 1;
+    align-self: stretch;
+    max-height: 494px;
+
+    .trend-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .trend-text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}

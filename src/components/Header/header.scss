@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0 40px;
+
+    .imgs {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .logo {
+        width: 80px;
+        height: 26px;
+        background-image: url("../../assets/imgs/logo.png");
+
+        @extend .imgs
+    }
+
+    .link {
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+
+        .message {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+            background-image: url("../../assets/imgs/notifications.png");
+            cursor: pointer;
+            @extend .imgs
+        }
+
+        .account {
+            width: 32px;
+            height: 32px;
+            background-image: url("../../assets/imgs/avatar.png");
+            cursor: pointer;
+            @extend .imgs
+        }
+    }
+}

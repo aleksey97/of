@@ -1,0 +1,39 @@
+.settings-input {
+    padding: 32px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
+    .controls-title {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .controls-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+
+    .btn-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        .Mui-disabled {
+            background-color: #1D1B201F !important;
+            color: #1E1A20;
+        }
+    }
+
+    .btn-back {
+        cursor: pointer;
+        margin-right: 8px;
+        color: #5F3196;
+        font-weight: 700;
+        padding-bottom: 10px;
+    }
+}

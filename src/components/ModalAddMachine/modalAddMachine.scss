@@ -1,0 +1,78 @@
+.modal-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+    .modal-content {
+        width: 680px;
+        height: 610px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        vertical-align: middle;
+        border-radius: 8px;
+    }
+
+    .modal-header {
+        width: 100%;
+        padding: 24px 10px;
+        font-weight: 600;
+        color: #705289;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cross-icon {
+        width: 14px;
+        height: 14px;
+        cursor: pointer;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../../assets/imgs/cross.svg");
+    }
+
+    .modal-body {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .menu-block {
+        width: 260px;
+        min-width: 260px;
+        height: 100%;
+        padding: 32px 24px;
+        color: #FFFFFF;
+        background-color: #5F3196;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../../assets/imgs/illustration.png");
+    }
+
+    .menu-title {
+        padding-top: 16px;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        font-size: 22px;
+        line-height: 28px;
+        font-weight: 600;
+        border-bottom: 1px solid #CCC4CE;
+    }
+
+    .menu-text {
+        color: #E9E0EB;
+    }
+
+    .menu-text {
+        font-size: 14px;
+    }
+
+    .MuiFormControlLabel-label {
+        font-size: 14px;
+    }
+}

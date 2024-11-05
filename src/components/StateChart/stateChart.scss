@@ -1,0 +1,72 @@
+.state-chart {
+    background-color: white;
+    max-width: 440px;
+    margin-right: 20px;
+    padding: 24px;
+    border-radius: 16px;
+
+    .recharts-legend-wrapper {
+        right: 0;
+        left: 270px;
+
+    }
+
+    .title {
+        font-size: 16px;
+        padding-bottom: 30px;
+        font-weight: 700;
+    }
+
+    .red-bl {
+        background-color: red;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+    }
+
+    .label-val {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .recharts-legend-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+
+    .state-content {
+        display: flex;
+        position: relative;
+    }
+
+    .state-legend {
+        position: absolute;
+        right: 20px;
+        top: 180px;
+    }
+
+    .legend-stopped, .legend-running {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .stopped-icon, .running-icon {
+        width: 10px;
+        height: 10px;
+        margin-right: 4px;
+        border-radius: 50%;
+        background-color: #DC3545;
+    }
+
+    .running-icon {
+        background-color: #459E74;
+    }
+
+    .legend-text-b {
+        font-weight: bold;
+        text-align: left;
+        min-width: 16px;
+    }
+}

@@ -1,0 +1,76 @@
+.complete-comp {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+
+    .controls-title {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .controls-text {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+
+    .content {
+        padding: 24px;
+        background-color: #FFF7FF;
+    }
+
+    .title {
+        width: 80px;
+        padding-right: 40px;;
+    }
+
+    .name-block, .cpu-block, .ram-block {
+        padding-top: 20px;
+        border-bottom: 1px solid #CCC4CE;
+        padding-bottom: 20px;
+        display: flex;
+    }
+
+    .edit-block {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .edit-icon {
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../../../assets/imgs/edit.png");
+    }
+
+    .btn-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        .btn-create {
+            background-color: #5F3196;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 50px;
+        }
+
+        .btn-back {
+            cursor: pointer;
+            margin-right: 8px;
+            color: #5F3196;
+            font-weight: 700;
+            padding-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.dashboard {
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    padding: 0 40px;
+    //justify-content: center;
+
+    .charts-list {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+}

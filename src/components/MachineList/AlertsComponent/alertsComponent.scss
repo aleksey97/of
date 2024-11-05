@@ -1,0 +1,29 @@
+.alerts-block {
+    display: flex;
+
+    .imgs {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 4px;
+    }
+
+    .critical-icon, .important-icon, .moderate-icon, .good-icon {
+        width: 19px;
+        height: 19px;
+        background-image: url("../../../assets/imgs/critical.png");
+        @extend .imgs
+    }
+
+    .important-icon {
+        background-image: url("../../../assets/imgs/warning.png");
+    }
+
+    .moderate-icon {
+        background-image: url("../../../assets/imgs/moderate.png");
+    }
+
+    .good-icon {
+        background-image: url("../../../assets/imgs/ok.png");
+    }
+}

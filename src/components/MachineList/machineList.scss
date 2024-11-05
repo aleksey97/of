@@ -1,0 +1,108 @@
+.machine-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+
+    .machine-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .new-btn {
+        padding: 12px 20px;
+        background-color: #5F3196;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        color: #FFFFFF;
+
+        &:hover {
+            filter: drop-shadow(5px 5px 10px rgba(36, 36, 36, 0.5));
+        }
+    }
+
+    .content {
+        padding-top: 24px;
+    }
+
+    .content-title {
+        display: flex;
+        justify-content: space-between;
+        color: #495057;
+        padding: 16px 20px;
+        margin-bottom: 16px;
+    }
+
+    .title-item {
+        display: flex;
+        width: 100%;
+        max-width: 14.3%;
+        align-items: center;
+    }
+
+    .filter-icon {
+        width: 12px;
+        height: 12px;
+        margin-left: 4px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../../assets/imgs/arrows.png");
+    }
+
+    .list-item {
+        display: flex;
+        padding: 16px 20px;
+        background-color: #FFFFFF;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item-id, .item-state, .item-host, .item-cpu, .item-memory, .item-uptime, .item-alerts {
+        width: 100%;
+        max-width: 14.3%;
+        text-overflow: clip;
+        white-space: nowrap;
+        overflow: hidden;
+        margin-right: auto;
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+    .item-text {
+        text-overflow: clip;
+    }
+
+    .item-cpu, .item-memory {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line {
+        padding-top: 4px;
+        width: 100px;
+    }
+
+    .state-running, .state-stopped {
+        color: #1A8754;
+        background-color: #F4F9F6;
+        padding: 8px 0;
+        font-size: 14px;
+        font-weight: 700;
+        max-width: 74px;
+        text-align: center;
+        border-radius: 16px;
+    }
+
+    .state-stopped {
+        color: #DC3545;
+        background-color: #FEF5F6;
+    }
+}
